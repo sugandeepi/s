@@ -1,4 +1,4 @@
-#include,stdio.h>
+#include<stdio.h>
 int main()
 {
 int n,a,d,i,sum=1;
@@ -9,6 +9,6 @@ for(i=n;i>1;i--)
 sum=sum+((n-1)*d);
 }
 sum=sum+a;
-printf("arithmetic progression is %d",sum0;
+printf("arithmetic progression is %d",sum);
 return 0;
 }
