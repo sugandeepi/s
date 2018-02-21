@@ -22,10 +22,10 @@ a[j]=temp;
 }
 }
 }
-printf("sorted array);
+printf("sorted array");
 for(i=0;i<=n;i++)
 {
-printf("%d\t",a[i])
+printf("%d\t",a[i]);
 }
 return 0;
 }
