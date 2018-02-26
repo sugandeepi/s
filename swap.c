@@ -4,7 +4,7 @@ int main()
 int a,b,c;
 printf("enter a and b:");
 scanf("%d %d",&a,&b);
-printf("the values a is %d and b is %d\n",a,b);
+printf("the values a is %d and b is %d before swapping\n",a,b);
 c=a;
 a=b;
 b=c;
