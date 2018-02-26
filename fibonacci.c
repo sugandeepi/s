@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int t1=0,t2=1,i,nt,n;
+int t1=1,t2=1,i,nt,n;
 printf("enter the number:");
 scanf("%d",&n);
 for(i=1;i<=n;i++)
