@@ -3,9 +3,10 @@
 int main()
 {
 int i,word=1;
+char str[50];
 printf("enter the string\n");
 gets(str);
-for(i=0;i<strlen(str);i++)
+for(i=1;i<strlen(str);i++)
 {
 if(str[i]==' ');
 {
