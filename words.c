@@ -8,7 +8,7 @@ printf("enter the string\n");
 gets(str);
 for(i=1;i<strlen(str);i++)
 {
-if(str[i]==' ');
+if(str[i]==' ')
 {
 word++;
 }
@@ -16,3 +16,5 @@ word++;
 printf("%d\n",word);
 return 0;
 }
+
+    
