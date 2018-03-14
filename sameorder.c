@@ -1,7 +1,9 @@
 #include<stdio.h>
 int main()
 {
- int n=3,i,a[20];
+ int n,i,a[20];
+ printf("enter the number:");
+ scanf("%d",&n);
   for(i=1;i<=n;i++)
   {
   	scanf("%d",&a[i]);
